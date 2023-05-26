@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Contacto</h1>
+    <br>
+    <fieldset> <legend>Datos Personales</legend><form action="enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electronico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="pais">Pais</label>
+        <input type="text" id="pais" name="pais" required>
+        <br>
+    </fieldset>
+
+        <br><br>
+        
+    <fieldset><Legend>Rol</Legend>
+        <label for="persona1">Atleta</label>
+        <input type="radio" name="opcion" label for="persona2">Entrenador</label>
+        <input type="radio" name="opcion">
+    </fieldset>
+    
+        <br><br>
+    <fieldset><legend>Mensaje</legend> 
+        <textarea name="Mensaje" cols="130" rows="7" ></textarea>
+    </fieldset>
+        
+        
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
