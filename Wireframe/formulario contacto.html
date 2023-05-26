@@ -5,16 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <h1>Formulario</h1>
-    <form action="formulario contacto" method="post" action="">
-        <input name= "nombre" type="text" autocomplete required> 
-        <input name="email" type="text" placeholder="Ingrese su correo electrónic" required>
-        <button type="submit">Enviar</button>
-      </form>
-      
+    <h1>Contacto</h1>
+    <form action="enviar.php" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
-
 
