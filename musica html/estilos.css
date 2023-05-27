@@ -1,53 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Banda Musical - Biografía</title>
-  <style>
-    body {
-      background-color: #333;
-      color: #fff;
-      font-family: Arial, sans-serif;
-    }
-
-    #biografia {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 50px;
-    }
-
-    .contenido-biografia {
-      flex: 1;
-      max-width: 600px;
-      padding-right: 50px;
-    }
-
-    h2 {
-      font-size: 24px;
-      margin-top: 0;
-    }
-
-    p {
-      font-size: 16px;
-      line-height: 1.5;
-    }
-
-    img {
-      max-width: 100%;
-    }
-  </style>
-</head>
-<body>
-  <section id="biografia">
-    <div class="contenido-biografia">
-      <h2>Biografía</h2>
-      <p>Somos una agrupación de profesores de educación física y música que hemos fusionado nuestros talentos para crear un combo ideal de diversión en cualquier entorno. Tocamos una variedad de géneros musicales, como ska, rock, reggae, siempre con el toque irresistible de la cumbia y el sabor popular de la música argentina.</p>
-      <p>Permítenos llevar a tu público a un nivel completamente nuevo de entretenimiento, donde la música se convierte en la protagonista indiscutible de la diversión.</p>
-      <p>¡No te pierdas la oportunidad de disfrutar de una experiencia inigualable con nuestra agrupación!</p>
-    </div>
-    <img src="imagen1.jpg" alt="Imagen1">
-    <img src="imagen2.jpg" alt="Imagen2">
-    <img src="imagen3.jpg" alt="Imagen3">
-  </section>
-</body>
-</html>
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #biografia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .contenido-biografia {
+    flex: 1;
+    max-width: 600px;
+    padding-right: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
