@@ -1,5 +1,5 @@
 body {
-    background-color: #333;
+    background-color: #5f5f5f;
     color: #fff;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -31,5 +31,7 @@ body {
   
   img {
     max-width: 100%;
+    background-color: transparent;
+      
   }
   
