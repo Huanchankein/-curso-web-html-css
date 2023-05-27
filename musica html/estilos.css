@@ -6,14 +6,14 @@ body {
     padding: 0;
   }
   
-  #general {
+  #biografia {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px;
   }
   
-  .contenido-general {
+  .contenido-biografia {
     flex: 1;
     max-width: 600px;
     padding-right: 50px;
