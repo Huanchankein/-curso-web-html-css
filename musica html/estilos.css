@@ -1,16 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=, initial-scale=1.0">
-  <title>Chayco Music Biografia</title>
-  <link rel="stylesheet" type="text/css" href="estilos.css">
+  <title>Banda Musical - Biografía</title>
+  <style>
+    body {
+      background-color: #333;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    #biografia {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+    }
+
+    .contenido-biografia {
+      flex: 1;
+      max-width: 600px;
+      padding-right: 50px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  </style>
 </head>
 <body>
-  
-</body>
-</html><section id="biografia">
+  <section id="biografia">
     <div class="contenido-biografia">
       <h2>Biografía</h2>
       <p>Somos una agrupación de profesores de educación física y música que hemos fusionado nuestros talentos para crear un combo ideal de diversión en cualquier entorno. Tocamos una variedad de géneros musicales, como ska, rock, reggae, siempre con el toque irresistible de la cumbia y el sabor popular de la música argentina.</p>
@@ -21,5 +49,5 @@
     <img src="imagen2.jpg" alt="Imagen2">
     <img src="imagen3.jpg" alt="Imagen3">
   </section>
-  
-  
+</body>
+</html>
