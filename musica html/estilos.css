@@ -1,25 +1,17 @@
 * {
   box-sizing: border-box;
-  background-color: #fdfdfd;
   margin: 0;
   padding: 0;
 }
 
 body {
-  padding-top: 80px;
-  margin-left: 20px;
-}
-
-
-img{
-  width:150px;
-  margin-top: 10px; 
-  justify-content: left;
-}
-  
-
-header {
+  margin: 0px;
   background-color: #bebcbc;
+}
+
+
+.header{  
+  background-color: #fefdfd;
   height: 60px;
   position: fixed;
   top: 0;
@@ -27,28 +19,73 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: 20px;
-  
 }
+
+.header .logo{
+  cursor: pointer;
+}
+
+.header .logo img:hover{
+  transform: scale(1.2);
+}
+
+.header .logo img{  
+  background-color: #fefdfd;
+  margin-right: auto;
+  margin-left: 0%;
+  width: 110px;
+  margin-left: 20px;
+  transition: all 0.3s;
+}
+
 
 nav {
-  float: right;
+  background-color: #fefdfd;
+  margin-left: auto;
+  margin-right: 50px;
 }
 
-nav ul {
-  list-style-type: none;
+ul {
+  list-style: none;
   display: flex;
-  justify-content: flex-end;
 }
 
-nav li a {
-  display: block;
-  text-align: center;
-  padding: 10px;
-  color: #333;
+li {
+  margin-left: 40px;
+  transition: all 0.3s;
+}
+
+
+a {
+  font-size: 18px;
   text-decoration: none;
+  list-style: none;
+  color: #575656;
 }
 
+.header .nav-links li:hover{
+  transform: scale(1.2);
+}
+.header .nav-links li a:hover{
+  color:rgb(7, 7, 7)
+}
+
+.header .btn button{
+  font-size: 17px;
+  color: #575656;
+  padding: 6px 22px;
+  margin-right: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header .btn button:hover{
+  transform: scale(1.2);
+  background-color: #fc6767;
+  color: #000000;
+}
 
 section {
   margin-top: 50px;
@@ -58,65 +95,89 @@ form#contacto {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: #151414;
   border-radius: 4px;
+  margin-left: 30px;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
+
 #inicio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
-}
-
-#inicio h2 {
   font-size: 60px;
-  margin-bottom: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
 }
 
-#inicio p {
-  margin-top: 10px;
+h1.titulo-grande {
+  font-size: 66px;
 }
 
-#biografia, #shows {
-  margin-top: 40px;
+h2.titulo-pequeno {
+  font-size: 30px;
+  font-style: oblique;
+}
+
+
+#biografia {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-#biografia h2, #shows h2 {
-  margin-bottom: 20px;
+#shows {
+  text-align: center;
 }
 
-.fotos, .artista {
-  margin-bottom: 20px;
+#shows h2 {
+  margin-top: 20px;
 }
+
+#shows .video {
+  display: inline-block;
+  margin: 10px;
+}
+
+#shows video {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+.fotos, 
+.foto1 {
+  margin-top: 0px;
+  max-width: 800px;
+}
+
 
 fieldset {
+ 
   margin-bottom: 20px;
   border: none;
+  padding-left:200px;
 }
+
 
 label {
   display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
+  margin-bottom: 0px;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%;
+  width: 80%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  text-align: left 30px;
 }
 
 input[type="submit"] {
@@ -125,7 +186,7 @@ input[type="submit"] {
   padding: 10px;
   background-color: #b4b4b4;
   color: #000000;
-  border: none;
+  border-color: #000000;
   border-radius: 4px;
   cursor: pointer;
 }
