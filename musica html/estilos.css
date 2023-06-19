@@ -83,7 +83,7 @@ a {
 
 .header .btn button:hover{
   transform: scale(1.2);
-  background-color: #fc6767;
+  background-color: #fc0606;
   color: #000000;
 }
 
@@ -91,9 +91,9 @@ section {
   margin-top: 50px;
 }
 
-form#contacto {
+#fomulario {
   max-width: 400px;
-  margin: 0 auto;
+  margin:  auto;
   padding: 20px;
   background-color: #151414;
   border-radius: 4px;
@@ -116,37 +116,46 @@ h1.titulo-grande {
 }
 
 h2.titulo-pequeno {
-  font-size: 30px;
+  font-size: 24px;
   font-style: oblique;
+  margin-bottom: 40px;
 }
 
 
 #biografia {
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: auto;
+}
+
+
+#biografia .fotos img {
+  width: auto;
+  height: auto;
+  margin: 25px auto;
+}
+
+#biografia h1 {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
 }
+
+#biografia p {
+  margin-left: 20px;
+}
+
 
 #shows {
   text-align: center;
 }
 
 #shows h2 {
-  margin-top: 20px;
+  margin-top: 70px;
+  margin-bottom: 40px;
 }
-
-#shows .video {
-  display: inline-block;
-  margin: 10px;
-}
-
-#shows video {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 
 
 .fotos, 
@@ -157,34 +166,32 @@ h2.titulo-pequeno {
 
 
 fieldset {
- 
-  margin-bottom: 20px;
-  border: none;
-  padding-left:200px;
-}
-
-
-label {
-  display: block;
-  margin-bottom: 0px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
   width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #f70303;
   border-radius: 4px;
   box-sizing: border-box;
-  text-align: left 30px;
+}
+
+fieldset input[type="text"],
+fieldset input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  text-align: left;
 }
 
 input[type="submit"] {
   display: block;
-  width: 100%;
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
   padding: 10px;
-  background-color: #b4b4b4;
+  background-color: #c5c2c2;
+  transition: all 0.3s;
   color: #000000;
   border-color: #000000;
   border-radius: 4px;
@@ -192,5 +199,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #b4b4b4;
+  background-color: #ff0a0a;
 }
